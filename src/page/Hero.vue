@@ -30,7 +30,7 @@ const handlePrev = () => {
 
 <template>
   <div class="flex items-center w-full min-h-screen">
-    <div class="container px-3 mx-auto my-32 md:px-5 lg:px-16 xl:px-0">
+    <div class="container px-3 mx-auto my-32 md:px-5 lg:px-16">
       <div class="flex flex-col w-full gap-12 2xl:gap-0">
         <!-- headline -->
         <div class="flex flex-col items-center xl:gap-12 xl:flex-row">
@@ -49,7 +49,7 @@ const handlePrev = () => {
               </h1>
             </div>
             <p
-              class="text-lg font-light text-center xl:text-left text-zinc-100 lg:text-xl"
+              class="text-lg font-light text-center xl:text-left text-zinc-100 lg:text-xl !leading-loose"
             >
               Temukan produk skincare premium dari Mooi & Epidermia, serta
               solusi perawatan kendaraan dari Aero Autocare, yang semuanya bisa

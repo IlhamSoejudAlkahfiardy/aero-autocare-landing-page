@@ -34,7 +34,7 @@ import products from "../assets/data/products";
           </h1>
 
           <p
-            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-lg font-light text-justify text-lightGold lg:text-xl xl:text-2xl lg:leading-loose']"
+            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-lg font-light text-justify text-lightGold lg:text-xl xl:text-2xl !leading-loose']"
           >
             {{ product.desc }}
           </p>
