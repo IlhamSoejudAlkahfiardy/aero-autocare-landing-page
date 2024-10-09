@@ -37,19 +37,19 @@ const handlePrev = () => {
           <div class="flex flex-col w-full gap-6 xl:w-3/4 2xl:w-1/2 lg:gap-12">
             <div class="flex flex-col gap-3 lg:gap-6">
               <h2
-                class="text-3xl font-normal text-center xl:text-left text-lightGold lg:text-4xl"
+                class="text-3xl font-normal text-center xl:text-left text-gradient lg:text-4xl"
               >
                 PT Aero Group Indonesia
               </h2>
               <div class="w-16 h-1 mx-auto xl:mx-0 xl:w-24 bg-gold" />
               <h1
-                class="text-3xl font-bold text-center xl:text-left text-lightGold lg:text-4xl drop-shadow-md"
+                class="text-3xl font-bold text-center xl:text-left text-gradient lg:text-4xl drop-shadow-md"
               >
                 Skincare & Perawatan Kendaraan Terbaik di TikTok & Shopee
               </h1>
             </div>
             <p
-              class="text-lg font-light text-center xl:text-left text-lightGold lg:text-xl"
+              class="text-lg font-light text-center xl:text-left text-zinc-100 lg:text-xl"
             >
               Temukan produk skincare premium dari Mooi & Epidermia, serta
               solusi perawatan kendaraan dari Aero Autocare, yang semuanya bisa

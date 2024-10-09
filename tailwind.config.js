@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        lightBlack:'#292524',
-        black: "#1c1917", // Warna hitam
+        lightBlack: "#181818",
+        black: "#090909", // Warna hitam
         gold: "#854d0e", // Warna emas
-        hoverGold:'#713f12',
+        hoverGold: "#713f12",
         lightGold: "#ca8a04",
+        gradientText: {
+          black: "rgb(202, 138, 4)", // Warna dasar
+          light: "rgb(255, 208, 149)", // Warna lebih terang untuk gradient
+        },
       },
     },
   },

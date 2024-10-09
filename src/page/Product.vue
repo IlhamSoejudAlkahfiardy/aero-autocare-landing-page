@@ -22,19 +22,19 @@ import products from "../assets/data/products";
         <div
           v-for="(product, index) in products"
           :key="index"
-          class="flex flex-col gap-3 my-5"
+          class="flex flex-col gap-5 my-5"
         >
           <h1
             :class="[
               index % 2 === 0 ? 'xl:text-start' : 'xl:text-end',
-              'text-2xl font-semibold text-lightGold lg:text-3xl',
+              'text-2xl font-semibold text-gradient lg:text-3xl',
             ]"
           >
             {{ product.title }}
           </h1>
 
           <p
-            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-lg font-normal text-justify text-lightGold lg:text-xl lg:leading-loose']"
+            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-lg font-light text-justify text-lightGold lg:text-xl xl:text-2xl lg:leading-loose']"
           >
             {{ product.desc }}
           </p>
