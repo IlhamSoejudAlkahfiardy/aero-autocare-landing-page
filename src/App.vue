@@ -2,6 +2,7 @@
 import Hero from "./page/Hero.vue";
 import AboutUs from "./page/AboutUs.vue";
 import Product from "./page/Product.vue";
+import USP from "./page/USP.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Product from "./page/Product.vue";
     <Hero />
     <AboutUs />
     <Product />
+    <USP />
   </div>
 </template>
 
