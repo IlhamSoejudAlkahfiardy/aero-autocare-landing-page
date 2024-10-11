@@ -3,6 +3,8 @@ import Hero from "./page/Hero.vue";
 import AboutUs from "./page/AboutUs.vue";
 import Product from "./page/Product.vue";
 import USP from "./page/USP.vue";
+import Testimonial from "./page/Testimonial.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -11,6 +13,8 @@ import USP from "./page/USP.vue";
     <AboutUs />
     <Product />
     <USP />
+    <Testimonial />
+    <Footer/>
   </div>
 </template>
 
