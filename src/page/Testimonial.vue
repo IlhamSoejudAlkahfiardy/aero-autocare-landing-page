@@ -6,7 +6,7 @@ import TestimonialCard from "../components/TestimonialCard.vue";
 
 import testimonialData from "../assets/data/testimonials";
 
-import { Icon } from "@iconify/vue/dist/iconify.js";
+// import { Icon } from "@iconify/vue/dist/iconify.js";
 
 import { ref } from "vue";
 

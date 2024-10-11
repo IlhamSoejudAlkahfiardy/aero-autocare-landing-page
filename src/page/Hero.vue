@@ -3,10 +3,11 @@ import AeroBlack from "../assets/image/aero-black.png";
 import ToneUp from "../assets/image/tone-up.png";
 import Button from "../components/Button.vue";
 import Image from "../components/Image.vue";
+import { useMotion } from "@vueuse/motion";
 
 // heroicon
 import { Icon } from "@iconify/vue";
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 
 const containerRef = ref(null);
 
@@ -26,6 +27,15 @@ const handlePrev = () => {
     behavior: "smooth",
   });
 };
+
+// onMounted(() => {
+//   const animation = animate(".test-animation", {scale:1.5},{
+//     duration:1,
+//     easing:spring(),
+//     repeat:Infinity,
+//     direction:"alternate"
+//   })
+// })
 </script>
 
 <template>
@@ -33,8 +43,25 @@ const handlePrev = () => {
     <div class="container px-3 mx-auto my-32 md:px-5 lg:px-16">
       <div class="flex flex-col w-full gap-12 2xl:gap-0">
         <!-- headline -->
-        <div class="flex flex-col items-center xl:gap-12 xl:flex-row">
-          <div class="flex flex-col w-full gap-6 xl:w-3/4 2xl:w-1/2 lg:gap-12">
+        <div
+          class="flex flex-col items-center test-animation xl:gap-12 xl:flex-row"
+        >
+          <div
+            v-motion
+            :initial="{ opacity: 0, y: 100 }"
+            :enter="{
+              y: 0,
+              opacity: 1,
+              transition: {
+                type: 'spring',
+                stiffness: 150,
+                damping: 50,
+                mass: 0.5,
+              },
+            }"
+            :duration="900"
+            class="flex flex-col w-full gap-6 xl:w-3/4 2xl:w-1/2 lg:gap-12"
+          >
             <div class="flex flex-col gap-3 lg:gap-6">
               <h2
                 class="text-3xl font-normal text-center xl:text-left text-gradient lg:text-4xl"
@@ -58,7 +85,22 @@ const handlePrev = () => {
           </div>
 
           <!-- produk -->
-          <div class="relative flex items-center w-full xl:w-3/4 2xl:w-1/2">
+          <div
+          v-motion
+          :initial="{ opacity: 0, y: 100 }"
+          :enter="{
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: 'spring',
+              stiffness: 150,
+              damping: 50,
+              mass: 0.5,
+            },
+          }"
+          :duration="900"
+          :delay="200"
+          class="relative flex items-center w-full xl:w-3/4 2xl:w-1/2">
             <Icon
               @click="handleNext"
               class="absolute hidden transition-all opacity-50 xl:right-0 md:right-16 md:flex text-gold hover:cursor-pointer hover:opacity-100"
