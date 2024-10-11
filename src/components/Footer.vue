@@ -39,7 +39,7 @@ import socials from "../assets/data/socials";
       />
       <div class="flex flex-col items-start gap-5 lg:flex-row lg:items-center lg:justify-between">
         <span class="block text-sm text-zinc-100 sm:text-center">
-          <p class="text-lg font-semibold hover:underline">
+          <p class="text-lg font-semibold">
             PT Aero Group Indonesia, Gresik, Indonesia
           </p></span
         >
