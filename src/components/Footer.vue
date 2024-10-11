@@ -6,7 +6,9 @@ import socials from "../assets/data/socials";
 <template>
   <footer class="bg-transparent">
     <div class="w-full max-w-screen-xl p-4 mx-auto md:py-8">
-      <div class="flex flex-col gap-5 sm:flex-row sm:flex sm:items-center sm:justify-between">
+      <div
+        class="flex flex-col gap-5 sm:flex-row sm:flex sm:items-center sm:justify-between"
+      >
         <a
           href="/"
           class="flex items-center mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse"
@@ -35,10 +37,18 @@ import socials from "../assets/data/socials";
       <hr
         class="my-6 border-lightGold sm:mx-auto dark:border-gray-700 lg:my-8"
       />
-      <span class="block text-sm text-zinc-100 sm:text-center"
-        >© 2024 <a href="/" class="hover:underline">PT Aero Group Indonesia</a>.
-        All Rights Reserved.</span
-      >
+      <div class="flex flex-col items-start gap-5 lg:flex-row lg:items-center lg:justify-between">
+        <span class="block text-sm text-zinc-100 sm:text-center">
+          <p class="text-lg font-semibold hover:underline">
+            PT Aero Group Indonesia, Gresik, Indonesia
+          </p></span
+        >
+        <span class="block text-sm text-zinc-100 sm:text-center"
+          >© 2024
+          <a href="/" class="hover:underline">PT Aero Group Indonesia</a>. All
+          Rights Reserved.</span
+        >
+      </div>
     </div>
   </footer>
 </template>
