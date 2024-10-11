@@ -2,7 +2,6 @@
 import Container from "../components/Container.vue";
 import DividerSection from "../components/DividerSection.vue";
 import SectionHeader from "../components/SectionHeader.vue";
-import Button from "../components/Button.vue";
 </script>
 <template>
   <Container>
