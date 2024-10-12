@@ -13,9 +13,9 @@ const handleClick = (url) => {
   <div>
     <button
       @click="handleClick(link)"
-      class="flex px-10 py-3 transition-colors rounded-full shadow-md bg-gold w-fit hover:bg-hoverGold"
+      class="flex px-10 py-3 transition-colors bg-transparent border rounded shadow-md border-gold/35 w-fit hover:bg-lightBlack"
     >
-      <p class="text-zinc-100">{{ text }}</p>
+      <p class="text-xs tracking-wider text-lightGold">{{ text }}</p>
     </button>
   </div>
 </template>

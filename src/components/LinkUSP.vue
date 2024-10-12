@@ -13,7 +13,7 @@ const handleClick = (url) =>{
 <template>
   <div
     @click="handleClick(link)"
-    class="flex items-center justify-between w-full p-5 border-b cursor-pointer border-gold group"
+    class="flex items-center justify-between w-full p-5 border-b cursor-pointer border-gold/35 group"
   >
     <p class="text-sm text-white transition-all xl:text-base group-hover:ml-5">
       {{ title }}

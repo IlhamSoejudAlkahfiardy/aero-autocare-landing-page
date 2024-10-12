@@ -6,6 +6,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.playwrite-au-sa-font {
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 /* Tambahkan di global CSS */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -27,18 +34,18 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ca8a04;
+  background: #b28752;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ca8a04;
+  background: #b28752;
 }
 
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ca8a04 #1c1917;
+  scrollbar-color: #b28752 #1c1917;
 }
 
 .text-gradient {

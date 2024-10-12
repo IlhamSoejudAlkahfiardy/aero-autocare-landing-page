@@ -1,7 +1,7 @@
 <script setup>
 import AeroBlack from "../assets/image/aero-black.png";
 import ToneUp from "../assets/image/tone-up.png";
-import Button from "../components/Button.vue";
+import Button from "../components/ButtonHero.vue";
 import Image from "../components/Image.vue";
 import { useMotion } from "@vueuse/motion";
 
@@ -64,11 +64,11 @@ const handlePrev = () => {
           >
             <div class="flex flex-col gap-3 lg:gap-6">
               <h2
-                class="text-3xl font-normal text-center xl:text-left text-gradient lg:text-4xl"
+                class="text-3xl font-light text-center xl:text-left text-gradient lg:text-4xl"
               >
                 PT Aero Group Indonesia
               </h2>
-              <div class="w-16 h-1 mx-auto xl:mx-0 xl:w-24 bg-gold" />
+              <hr class="w-16 mx-auto xl:mx-0 xl:w-24 border-gold" />
               <h1
                 class="text-3xl font-bold text-center xl:text-left text-gradient lg:text-4xl drop-shadow-md"
               >

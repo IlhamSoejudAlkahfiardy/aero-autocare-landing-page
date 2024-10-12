@@ -6,7 +6,7 @@ const products = [
     shopee: "https://shopee.co.id/mooiglowserum",
   },
   {
-    title: "Aero Auto Care",
+    title: "Aero",
     desc: "Produk perawatan kendaraan yang menjaga performa dan penampilan mobil Anda tetap prima. Mulai dari pembersih interior hingga perlindungan cat eksterior, Aero Autocare adalah solusi tepat untuk perawatan harian kendaraan.",
     tiktok: "https://www.tiktok.com/@aeroautocare",
     shopee: "https://shopee.co.id/aeroautocare",

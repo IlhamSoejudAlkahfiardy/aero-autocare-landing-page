@@ -14,7 +14,7 @@ import Footer from "./components/Footer.vue";
     <Product />
     <USP />
     <Testimonial />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 

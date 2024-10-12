@@ -17,7 +17,7 @@ import socials from "../assets/data/socials";
           <span
             class="self-center text-2xl font-semibold text-gradient whitespace-nowrap"
           >
-            Aero Auto Care
+            Aero
           </span>
         </a>
         <ul

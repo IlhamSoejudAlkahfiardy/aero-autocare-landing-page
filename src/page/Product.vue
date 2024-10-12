@@ -2,7 +2,7 @@
 import Container from "../components/Container.vue";
 import SectionHeader from "../components/SectionHeader.vue";
 import DividerSection from "../components/DividerSection.vue";
-import Button from "../components/Button.vue";
+import Button from "../components/ButtonProduct.vue";
 import products from "../assets/data/products";
 </script>
 <template>
@@ -40,7 +40,7 @@ import products from "../assets/data/products";
           </p>
 
           <!-- CTA Buttons -->
-          <div :class="[index % 2 === 0 ? 'xl:justify-start' : 'xl:justify-end', 'flex flex-col gap-3 my-3 md:gap-5 md:flex-row']">
+          <div :class="[index % 2 === 0 ? 'xl:justify-start' : 'xl:items-end', 'flex flex-col gap-3 my-3 md:gap-5 ']">
             <Button :text="'Lihat di TikTok'" :link="product.tiktok" />
             <Button :text="'Lihat di Shopee'" :link="product.shopee" />
           </div>
