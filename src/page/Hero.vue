@@ -126,6 +126,20 @@ const handlePrev = () => {
 
         <!-- call to action -->
         <div
+        v-motion
+          :initial="{ opacity: 0, y: 100 }"
+          :enter="{
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: 'spring',
+              stiffness: 150,
+              damping: 50,
+              mass: 0.5,
+            },
+          }"
+          :duration="900"
+          :delay="400"
           class="flex flex-col items-center justify-center w-full gap-5 md:flex-row xl:justify-start"
         >
           <Button
