@@ -5,7 +5,7 @@ import socials from "../assets/data/socials";
 </script>
 <template>
   <footer class="bg-transparent">
-    <div class="w-full max-w-screen-xl p-4 mx-auto md:py-8">
+    <div class="w-full p-4 mx-auto max-w-screen-2xl md:py-8">
       <div
         class="flex flex-col gap-5 sm:flex-row sm:flex sm:items-center sm:justify-between"
       >
