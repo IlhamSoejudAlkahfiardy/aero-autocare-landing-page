@@ -27,14 +27,14 @@ import products from "../assets/data/products";
           <h1
             :class="[
               index % 2 === 0 ? 'xl:text-start' : 'xl:text-end',
-              'text-2xl font-semibold text-gradient lg:text-3xl',
+              'text-2xl font-medium text-gradient lg:text-3xl',
             ]"
           >
             {{ product.title }}
           </h1>
 
           <p
-            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-lg font-light text-justify text-zinc-100 lg:text-xl xl:text-2xl !leading-loose']"
+            :class="[index % 2 === 0 ? 'xl:text-start' : 'xl:text-end', 'text-base font-light text-justify text-textWhite lg:text-lg xl:text-xl !leading-loose']"
           >
             {{ product.desc }}
           </p>

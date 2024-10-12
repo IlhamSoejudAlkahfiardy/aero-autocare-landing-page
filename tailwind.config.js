@@ -21,6 +21,7 @@ export default {
           black: "rgb(202, 138, 4)", // Warna dasar
           light: "rgb(255, 208, 149)", // Warna lebih terang untuk gradient
         },
+        textWhite:'#d4d4d8',
         testingColor: "#1A1A1A",
       },
     },

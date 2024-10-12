@@ -21,11 +21,11 @@ import { Icon } from "@iconify/vue/dist/iconify.js";
       }"
     ></div>
 
-    <p class="text-lg font-medium text-zinc-100">
+    <p class="text-lg font-medium text-textWhite">
       {{ name }}
     </p>
 
-    <p class="text-sm font-normal text-justify text-zinc-100 line-clamp-4">
+    <p class="text-sm font-normal text-justify text-textWhite line-clamp-4">
       {{ desc }}
     </p>
 

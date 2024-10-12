@@ -39,7 +39,7 @@ const handleScroll = () => {
 
 <template>
   <div class="flex items-center w-full min-h-screen">
-    <div class="container px-3 mx-auto my-32 md:px-5 lg:px-16">
+    <div class="container px-5 mx-auto my-12 md:px-10 lg:px-16">
       <div class="flex flex-col w-full gap-12 2xl:gap-0">
         <!-- headline -->
         <div
@@ -63,19 +63,19 @@ const handleScroll = () => {
           >
             <div class="flex flex-col gap-3 lg:gap-6">
               <h2
-                class="text-3xl font-light text-center xl:text-left text-gradient lg:text-4xl"
+                class="text-2xl font-light text-center xl:text-left text-gradient lg:text-3xl"
               >
                 PT Aero Group Indonesia
               </h2>
               <hr class="w-16 mx-auto xl:mx-0 xl:w-24 border-gold" />
               <h1
-                class="text-3xl font-bold text-center xl:text-left text-gradient lg:text-4xl drop-shadow-md"
+                class="text-2xl font-bold text-center xl:text-left text-gradient lg:text-3xl drop-shadow-md"
               >
                 Skincare & Perawatan Kendaraan Terbaik di TikTok & Shopee
               </h1>
             </div>
             <p
-              class="text-lg font-light text-center xl:text-left text-zinc-100 lg:text-xl !leading-loose"
+              class="text-base font-light text-center xl:text-left text-textWhite lg:text-xl !leading-loose"
             >
               Temukan produk skincare premium dari Mooi & Epidermia, serta
               solusi perawatan kendaraan dari Aero Autocare, yang semuanya bisa

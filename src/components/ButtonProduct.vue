@@ -17,7 +17,7 @@ const handleClick = (url) => {
       @click="handleClick(link)"
       class="flex items-center justify-between gap-12 px-6 py-3 transition-all bg-transparent border-b shadow-md w-72 border-gold/35 hover:bg-lightBlack"
     >
-      <p class="text-xs tracking-wider text-zinc-100">{{ text }}</p>
+      <p class="text-xs font-light tracking-wider text-zinc-100">{{ text }}</p>
       <Icon class="w-4 h-4 text-white" icon="akar-icons:arrow-right" />
     </button>
   </div>
