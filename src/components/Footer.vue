@@ -13,7 +13,7 @@ import socials from "../assets/data/socials";
           href="/"
           class="flex items-center mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse"
         >
-          <img :src="Logo" class="h-8" alt="Aero Auto Care Logo" />
+          <img :src="Logo" class="h-20" alt="Aero Auto Care Logo" />
           <!-- <span
             class="self-center text-2xl font-semibold text-gradient whitespace-nowrap"
           >
