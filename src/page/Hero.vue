@@ -65,7 +65,7 @@ const handleScroll = () => {
               <h2
                 class="text-2xl font-light text-center xl:text-left text-gradient lg:text-3xl"
               >
-                PT Aero Group Indonesia
+                PT. Aero Group Indonesia
               </h2>
               <hr class="w-16 mx-auto xl:mx-0 xl:w-24 border-gold" />
               <h1

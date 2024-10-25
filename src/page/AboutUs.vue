@@ -14,7 +14,7 @@ import SectionHeader from "../components/SectionHeader.vue";
 
       <div class="w-full px-6 mx-auto lg:w-3/4">
         <p class="text-base font-light text-justify xl:text-center text-textWhite lg:text-xl xl:text-2xl lg:leading-loose !leading-loose">
-          PT Aero Group Indonesia adalah perusahaan yang fokus pada penjualan
+          PT. Aero Group Indonesia adalah perusahaan yang fokus pada penjualan
           produk berkualitas melalui platform online terpopuler seperti TikTok
           dan Shopee. Dengan lini produk andalan kami, yaitu Mooi & Epidermia
           untuk skincare, serta Aero Autocare untuk perawatan kendaraan, kami

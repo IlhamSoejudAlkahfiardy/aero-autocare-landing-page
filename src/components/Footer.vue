@@ -42,12 +42,12 @@ import socials from "../assets/data/socials";
       >
         <span class="block text-sm text-zinc-100 sm:text-center">
           <p class="text-lg font-semibold">
-            PT Aero Group Indonesia, Gresik, Indonesia
+            PT. Aero Group Indonesia, Gresik, Indonesia
           </p></span
         >
         <span class="block text-sm text-zinc-100 sm:text-center"
           >© 2024
-          <a href="/" class="hover:underline">PT Aero Group Indonesia</a>. All
+          <a href="/" class="hover:underline">PT. Aero Group Indonesia</a>. All
           Rights Reserved.</span
         >
       </div>
