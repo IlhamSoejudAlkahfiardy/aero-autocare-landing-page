@@ -1,10 +1,10 @@
 <script setup>
-import Container from "../components/Container.vue";
-import DividerSection from "../components/DividerSection.vue";
-import SectionHeader from "../components/SectionHeader.vue";
-import TestimonialCard from "../components/TestimonialCard.vue";
+import Container from "../../components/Container.vue";
+import DividerSection from "../../components/DividerSection.vue";
+import SectionHeader from "../../components/SectionHeader.vue";
+import TestimonialCard from "../../components/TestimonialCard.vue";
 
-import testimonialData from "../assets/data/testimonials";
+import testimonialData from "../../assets/data/testimonials";
 
 // import { Icon } from "@iconify/vue/dist/iconify.js";
 

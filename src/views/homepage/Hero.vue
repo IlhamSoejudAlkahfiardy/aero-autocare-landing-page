@@ -1,29 +1,12 @@
 <script setup>
-import Button from "../components/ButtonHero.vue";
-import Image from "../components/Image.vue";
+import Button from "../../components/ButtonHero.vue";
+import Image from "../../components/Image.vue";
 
-import ProductImage from "../assets/data/imageHero";
+import ProductImage from "../../assets/data/imageHero";
 import { ref } from "vue";
 
 const containerRef = ref(null);
 const currentIndex = ref(0);
-
-// const handleNext = () => {
-//   const itemWidth = containerRef.value.firstChild.clientWidth;
-//   containerRef.value.scrollBy({
-//     left: itemWidth,
-//     behavior: "smooth",
-//   });
-// };
-
-// Fungsi untuk menggeser ke item sebelumnya
-// const handlePrev = () => {
-//   const itemWidth = containerRef.value.firstChild.clientWidth;
-//   containerRef.value.scrollBy({
-//     left: -itemWidth,
-//     behavior: "smooth",
-//   });
-// };
 
 const handleScroll = () => {
   const container = containerRef.value; // Mengakses container melalui ref

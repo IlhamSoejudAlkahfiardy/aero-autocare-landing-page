@@ -20,19 +20,30 @@ import socials from "../assets/data/socials";
             Aero
           </span> -->
         </a>
-        <ul
-          class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
-        >
-          <li v-for="(social, index) in socials" :key="index">
-            <a
-              :href="social.link"
-              target="_blank"
-              class="hover:underline me-4 md:me-6 text-zinc-100"
-            >
-              {{ social.title }}
-            </a>
-          </li>
-        </ul>
+        <div class="flex flex-wrap items-start gap-6">
+          <router-link to="/" class="text-sm hover:underline text-zinc-100">
+            Homepage
+          </router-link>
+          <router-link
+            to="/career"
+            class="pr-6 text-sm border-r hover:underline text-zinc-100 border-gold"
+          >
+            Career
+          </router-link>
+          <ul
+            class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
+          >
+            <li v-for="(social, index) in socials" :key="index">
+              <a
+                :href="social.link"
+                target="_blank"
+                class="hover:underline me-4 md:me-6 text-zinc-100"
+              >
+                {{ social.title }}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <hr
         class="my-6 border-lightGold sm:mx-auto dark:border-gray-700 lg:my-8"

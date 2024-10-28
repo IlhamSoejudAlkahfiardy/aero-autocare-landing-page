@@ -14,7 +14,8 @@
     "@vue-hero-icons/solid": "^1.7.2",
     "@vueuse/motion": "^2.2.5",
     "flowbite": "^2.5.2",
-    "vue": "^3.5.10"
+    "vue": "^3.5.10",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@iconify/vue": "^4.1.2",
