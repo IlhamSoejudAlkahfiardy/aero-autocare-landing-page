@@ -21,7 +21,7 @@ const handleScroll = () => {
 </script>
 
 <template>
-  <div class="flex items-center w-full min-h-screen">
+  <div class="flex items-center w-full min-h-screen -mt-12">
     <div class="container px-5 mx-auto my-12 md:px-10 lg:px-16">
       <div class="flex flex-col w-full gap-12 2xl:gap-0">
         <!-- headline -->

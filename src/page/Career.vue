@@ -5,12 +5,14 @@ import DividerSection from "../components/DividerSection.vue";
 import SectionHeader from "../components/SectionHeader.vue";
 import CardCareer from "../components/CardCareer.vue";
 import Footer from "../components/Footer.vue";
+import Drawer from "../components/Drawer.vue";
 import data from "../assets/data/career";
 </script>
 <template>
   <ContainerPage>
+    <Drawer />
     <Container>
-      <div class="flex flex-col gap-6">
+      <div class="flex flex-col gap-6 -mt-12">
         <SectionHeader title="Career" />
 
         <div class="flex justify-center w-full">
