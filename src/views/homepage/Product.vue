@@ -2,7 +2,7 @@
 import Container from "../../components/Container.vue";
 import SectionHeader from "../../components/SectionHeader.vue";
 import DividerSection from "../../components/DividerSection.vue";
-import Button from "../../components/ButtonProduct.vue";
+import Button from "../../components/homepage/ButtonProduct.vue";
 import products from "../../assets/data/products";
 </script>
 <template>

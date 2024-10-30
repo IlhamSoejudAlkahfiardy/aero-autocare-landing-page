@@ -1,5 +1,20 @@
 <script setup>
 import { Icon } from "@iconify/vue/dist/iconify.js";
+
+const links = [
+  {
+    title:"Beranda",
+    url:"/"
+  }  ,
+  {
+    title:"Karir",
+    url:"/career"
+  },
+  {
+    title:"Visi dan Misi",
+    url:"/vision"
+  }
+]
 </script>
 <template>
   <div class="flex justify-end w-full">
@@ -44,20 +59,14 @@ import { Icon } from "@iconify/vue/dist/iconify.js";
       </button>
       <div class="py-4 overflow-y-auto">
         <ul class="space-y-2 font-medium">
-          <li>
+
+          
+          <li v-for="(link, index) in links" :key="index">
             <a
-              href="/"
+              :href="link.url"
               class="flex items-center p-2 rounded-lg text-lightGold hover:text-gold group"
             >
-              <span class="ms-3">Homepage</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="/career"
-              class="flex items-center p-2 rounded-lg text-lightGold hover:text-gold group"
-            >
-              <span class="ms-3">Career</span>
+              <span class="ms-3">{{ link.title }}</span>
             </a>
           </li>
           

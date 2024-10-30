@@ -2,9 +2,9 @@
 import Container from "../../components/Container.vue";
 import DividerSection from "../../components/DividerSection.vue";
 import SectionHeader from "../../components/SectionHeader.vue";
-import Accordion from "../../components/USPAccordion.vue";
+import Accordion from "../../components/homepage/USPAccordion.vue";
 
-import LinkUSP from "../../components/LinkUSP.vue";
+import LinkUSP from "../../components/homepage/LinkUSP.vue";
 </script>
 <template>
   <Container>

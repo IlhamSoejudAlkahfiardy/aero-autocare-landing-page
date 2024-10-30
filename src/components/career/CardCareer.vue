@@ -1,5 +1,6 @@
 <script setup>
-import Brand from "../assets/image/brand.webp";
+// import Brand from "../assets/image/brand.webp";
+import Brand from "../../assets/image/brand.webp";
 import { Icon } from "@iconify/vue/dist/iconify.js";
 
 defineProps({

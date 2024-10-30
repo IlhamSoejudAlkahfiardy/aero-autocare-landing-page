@@ -14,21 +14,16 @@ import socials from "../assets/data/socials";
           class="flex items-center mb-4 space-x-3 sm:mb-0 rtl:space-x-reverse"
         >
           <img :src="Logo" class="h-20" alt="Aero Auto Care Logo" />
-          <!-- <span
-            class="self-center text-2xl font-semibold text-gradient whitespace-nowrap"
-          >
-            Aero
-          </span> -->
         </a>
         <div class="flex flex-wrap items-start gap-6">
           <a href="/" class="text-sm hover:underline text-zinc-100">
-            Homepage
+            Beranda
           </a>
           <a
             href="/career"
             class="pr-6 text-sm border-r hover:underline text-zinc-100 border-gold"
           >
-            Career
+            Karir
           </a>
           <ul
             class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"

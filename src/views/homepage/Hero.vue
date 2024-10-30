@@ -1,6 +1,6 @@
 <script setup>
-import Button from "../../components/ButtonHero.vue";
-import Image from "../../components/Image.vue";
+import Button from "../../components/homepage/ButtonHero.vue";
+import Image from "../../components/homepage/Image.vue";
 
 import ProductImage from "../../assets/data/imageHero";
 import { ref } from "vue";
