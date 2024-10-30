@@ -1,23 +1,23 @@
 const data = [
   {
-    title: "A. Pengantar",
+    title: "Visioner",
     content:
       "Dirancang untuk memaksimalkan peran strategis masing masing Departemen dalam mencapai visi sebagai Perusahaan terdepan di industri Penjualan dan Branding, dengan fokus utama pada manajemen kolaborasi lintas Departemen, pengembangan Teknologi dan pengembangan Karyawan berbasis kompetensi di seluruh lini jabatan",
   },
   {
-    title: "B. Visi",
+    title: "Visi",
     content:
-      "Menjadi Perusahaan terdepan di industri penjualan dan branding online, melalui Karyawan yang kompeten dan inovatif serta menciptakan pengalaman pelanggan yang luar biasa melalui inovasi produk dan kualitas layanan",
+      "Menjadi Perusahaan terdepan di industri penjualan dan branding online, melalui rangkaian improvemen Karyawan berbasis kompetensi dan inovasi serta menciptakan pengalaman pelanggan yang luar biasa melalui inovasi produk dan kualitas layanan",
   },
   {
-    title: "C. Misi",
+    title: "Misi",
     items: [
       {
         title:
           "1. Memajukan Kompetensi Karyawan sebagai Kekuatan Utama Perusahaan dalam Pasar Digital",
         subItems: [
           {
-            title: "a. HRD",
+            title: "a. Human Resources Development",
             content:
               "Melaksanakan program pelatihan berbasis kompetensi yang mencakup keterampilan teknis dan analitis untuk seluruh Karyawan di berbagai level ",
           },
@@ -40,12 +40,12 @@ const data = [
           {
             title: "a. Finance dan Accounting",
             content:
-              "Menggunakan data analitik untuk optimalisasi penganggaran dan peningkatan ROI dalam strategi pemasaran dan operasional serta memastikan alokasi dana yang efektif di setiap Departemen dan Divisi",
+              "Menggunakan data analitik untuk optimalisasi penganggaran dan peningkatan ROI (Return Of Investment) dalam strategi pemasaran dan operasional serta memastikan alokasi dana yang efektif di setiap Departemen dan Divisi",
           },
           {
             title: "b. Information Technology",
             content:
-              "Mengembangkan sistem Teknoly yang berfokus pada personalisasi pengalaman pelanggan, analisis perilaku konsumen, efisiensi waktu serta pemantauan produk dan produktifitas masing masing Departemen secara real time",
+              "Mengembangkan sistem Teknologi yang berfokus pada personalisasi pengalaman pelanggan, analisis perilaku konsumen, efisiensi waktu serta pemantauan produk dan produktifitas masing masing Departemen secara real time",
           },
           {
             title: "c. Sales dan Marketing - Brand",
@@ -60,7 +60,7 @@ const data = [
         subItems: [
           {
             title: "a. Purchasing",
-            content: "Menjalin kemitraan strategis dengan pemasok maupun Supplayer yang adaptif dan berkesinambungan, memastikan kualitas setiap produk terjaga dan persediaan bahan siap mendukung permintaan pasar yang dinamis",
+            content: "Menjalin kemitraan strategis dengan pemasok maupun Supplayer yang adaptif dan berkesinambungan, memastikan kualitas setiap produk terjaga dan persediaan bahan baku yang siap mendukung permintaan pasar yang dinamis",
           },
           {
             title: "b. Operasional Gudang",
@@ -76,12 +76,12 @@ const data = [
         title: "4. Meningkatkan Keunggulan Pasar Digital Melalui Kolaborasi Strategis Antar Departemen",
         subItems: [
           {
-            title: "a. HRD & Sales dan Marketing",
+            title: "a. Human Resources Development & Sales dan Marketing",
             content: "Mengembangkan program pengembangan tim yang mendukung kerja sama lintas Departemen dalam kampanye pemasaran, meningkatkan sinergi dalam mencapai tujuan Perusahaan",
           },
           {
             title: "b. Information Technology & Sales dan Marketing",
-            content: "Mengimplementasikan Teknology berbasis analytic yang memungkinkan tim pemasaran untuk melacak performa kampanye secara detail, akurat, mengidentifikasi peluang optimasi serta adaptif dengan perubahan tren pasar",
+            content: "Mengimplementasikan Teknologi berbasis analytic yang memungkinkan tim pemasaran untuk melacak performa kampanye secara detail, akurat, mengidentifikasi peluang optimasi serta adaptif dengan perubahan tren pasar",
           },
           {
             title: "c. Finance dan Accounting & Sales dan Marketing",
@@ -93,7 +93,7 @@ const data = [
         title: "5. Menjadi Tempat Kerja yang Menginspirasi untuk Menarik dan Mempertahankan Talenta Terbaik",
         subItems: [
           {
-            title: "a. HRD",
+            title: "a. Human Resources Development",
             content: "Membangun reputasi sebagai Perusahaan yang mengutamakan kesejahteraan dan pengembangan Karyawan melalui program penghargaan berbasis kinerja serta menciptakan lingkungan kerja yang inklusif dan progresif",
           },
           {
