@@ -61,7 +61,7 @@ const data = [
           {
             title: "Purchasing",
             content:
-              "Menjalin kemitraan strategis dengan pemasok maupun Supplayer yang adaptif dan berkesinambungan, memastikan kualitas setiap produk terjaga dan persediaan bahan baku yang siap mendukung permintaan pasar yang dinamis",
+              "Menjalin kemitraan strategis dengan pemasok maupun Supplyer yang adaptif dan berkesinambungan, memastikan kualitas setiap produk terjaga dan persediaan bahan baku yang siap mendukung permintaan pasar yang dinamis",
           },
           {
             title: "Operasional Gudang",
