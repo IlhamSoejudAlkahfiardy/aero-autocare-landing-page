@@ -19,6 +19,9 @@ import socials from "../assets/data/socials";
           <a href="/" class="text-sm hover:underline text-zinc-100">
             Beranda
           </a>
+          <a href="/vision" class="text-sm hover:underline text-zinc-100">
+            Visi dan Misi
+          </a>
           <a
             href="/career"
             class="pr-6 text-sm border-r hover:underline text-zinc-100 border-gold"

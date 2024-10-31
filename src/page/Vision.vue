@@ -4,9 +4,8 @@ import DividerSection from "../components/DividerSection.vue";
 import HeaderParagraph from "../components/vision/HeaderParagraph.vue";
 import HeaderText from "../components/vision/HeaderText.vue";
 import TextParagraph from "../components/vision/TextParagraph.vue";
-import SectionHeader from "../components/SectionHeader.vue";
-
 import visions from "../assets/data/vision";
+
 </script>
 <template>
   <Layout>
@@ -37,14 +36,19 @@ import visions from "../assets/data/vision";
                 <HeaderText :title="subItem.title" />
                 <ol>
                   <li
-                  class="mb-3"
+                    class="mb-3"
                     v-for="(subSubItem, subSubIndex) in subItem.subItems"
                     :key="subSubIndex"
                   >
-                    <p class="text-sm font-medium text-justify ms-3 xl:text-base text-textWhite">
+                    <div class="flex items-center">
+                      <div class="w-2 h-2 rounded-full bg-lightGold"></div>
+                      <p
+                        class="text-sm font-semibold text-justify ms-3 xl:text-base text-textWhite"
+                      >
                         {{ subSubItem.title }}
-                    </p>
-                    <div class="ms-8">
+                      </p>
+                    </div>
+                    <div class="ms-5">
                       <TextParagraph :text="subSubItem.content" />
                     </div>
                   </li>
